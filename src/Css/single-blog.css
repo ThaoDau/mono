@@ -1,0 +1,104 @@
+
+
+main .single-blog{
+    
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height:300px ;
+
+}   
+    
+/*  single blog-item */
+main .single-blog h1, main .blog p{
+  font-family: "Amiri",sans-serif;
+}
+.single-blog-page h3{
+  font-family: "Amiri",sans-serif;
+}
+.single-blog-page p{
+  font-family: "Amiri",sans-serif;
+}
+
+
+/* content  */
+.content-single-blog-page img{
+    width: 99%;
+}
+.content-single-blog-page .content p{
+    color: #918b8a;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.content-single-blog-page .content i{
+    color: #c3a600;
+    font-size: 20px;
+    
+}
+.content-single-blog-page .content h2{
+    font-family: "Amiri",sans-serif;
+    color: #2a3c80;
+}
+.content-single-blog-page .content .link-icon i{
+  border: 1px solid #2a3c80;
+  background-color: #0a299b;
+  color: aliceblue;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+/* comment  */
+.form-comment .item input{
+  width: 100%;
+  height: 40px;
+}
+.form-comment .item textarea{
+  width: 100%;
+ 
+}
+.form-comment label{
+  font-weight: bold;
+  font-family: 'Palanquin', sans-serif;
+}
+.form-comment button{
+  border: none;
+  padding: 15px;
+  background-color: #053543;
+  color: #FDF5E6;
+  font-family: "Amiri",sans-serif;
+}
+
+/* responsive  */
+@media (max-width: 2410px) {
+  
+
+
+}
+
+@media (max-width: 1200px) {
+    
+
+}
+
+@media (max-width: 1000px) {
+  .blog-page .box-right .p-5{
+        width: 80%;
+        padding: 1rem;
+    }
+    .single-blog-page .col-md-4 {
+      width:100%;
+    }
+    .single-blog-page .col-md-8 {
+      width: 100%;
+    }
+    .single-blog-page .content .image img {
+   padding: 10px 0px;
+}
+
+
+
+@media (max-width: 768px) {
+   
+
+}

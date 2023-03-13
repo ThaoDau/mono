@@ -1,0 +1,65 @@
+/*boxright*/
+
+
+/* popular  */
+.box-popular-new-item img{
+    width:100px;
+    
+}
+.box-right .popular-new-posts h3,span{
+    font-family: "Amiri",sans-serif;
+  }
+  .box-right .box-popular-new-item-title a {
+    text-decoration: none;
+    color: #0a299b;
+  }
+  /* categories */
+  .box-right .categories-list a{
+    text-decoration: none ;
+    color: rgb(11, 18, 72); 
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Amiri",sans-serif;
+  }
+  .box-right .categories-list span i{
+    color: rgb(188, 120, 30);
+    margin: 0px 10px;
+    font-size: 19px;
+    font-family: "Amiri",sans-serif;
+  }
+  .box-right .categories-list li{
+    margin: 10px 0px;
+  }
+  /* questions */
+  .box-right .have-any-question{
+    
+    background-image: url('../src/Image/set-of-manicure-pedicure-tools-and-accessories-stone-concrete-background-e1643215490787.jpg'); 
+      background-position: 0 77%; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+     
+      z-index: -100;
+  
+  }
+  .box-right .have-any-question-box{
+    background-color: rgba(35, 75, 88, 0.878); 
+  }
+  .box-right .have-any-question-box h3{
+    color: #FDF5E6;
+    font-family: "Amiri",sans-serif;
+  }
+  .box-right .box-question-list a{
+    text-decoration: none ;
+    color: #fff; 
+    font-family: "Amiri",sans-serif;
+  }
+  .box-right .box-question-list span i{
+    color: #FDF5E6;
+    margin: 0px 10px;
+    font-size: 19px;
+    
+  }
+  .box-right .box-question-list li{
+    margin: 10px 0px;
+  }
+  

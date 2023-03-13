@@ -1,0 +1,198 @@
+
+    main .contact {
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        height: 300px;
+
+
+    }
+
+    /* contact */
+    main .contact h1,
+    main .contact p {
+        font-family: "Amiri", sans-serif;
+    }
+    
+    .contact-information-text {
+        background-color: #FDF5E6;
+        height: 300px;
+    }
+
+    .contact-information-text i {
+        font-size: 50px;
+        color: #855a0a;
+    }
+
+    .contact-information-text h3 {
+
+        color: #36364e;
+        font-family: "Amiri", sans-serif;
+    }
+
+    .make-appointment-contact {
+        position: relative;
+    }
+
+    .make-appointment-contact .background-make-appointment {
+        background-color: #fdf4e7;
+        width: 70%;
+        height: 900px;
+    }
+
+    .make-appointment-contact .box-make-appointment {
+        position: absolute;
+        top: 10%;
+        right: 0;
+        left: 0;
+    }
+
+    .make-appointment-contact .title-text-make-appointment {
+        margin-top: 5%;
+    }
+
+    .make-appointment-contact .title-text-make-appointment h3 {
+        
+    color: #043542;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif
+    }
+     h1 {
+        font-size: 60px;
+        color: #043542;
+        font-weight: 400;
+        font-family: 'amiri', serif
+        }
+
+    .make-appointment-contact .form-right-make-appointment {
+        background-color: #ffffff;
+        /* width: 37%; */
+        height: 95%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .make-appointment-contact .opening-span {
+        font-size: 25px;
+        color: #043542;
+    }
+
+    .make-appointment-contact .hr-after-form {
+        background-color: #c7651b;
+        width: 115px;
+        height: 4px;
+        margin: 5px 0;
+    }
+
+    /* form */
+
+    .make-appointment-contact .form-right-make-appointment .item input {
+        width: 100%;
+        height: 40px;
+        outline: none;
+    }
+    .make-appointment-contact  .title-text-make-appointment .text a{
+        color: #f9f8f8;
+        margin: 0px 10px;
+    }
+    .make-appointment-contact .title-text-make-appointment .text i{
+        font-size: 20px;
+        padding: 5px;
+        border: 1px solid #c59233;
+        background-color: #c59233;
+        border-radius: 50%;
+    }
+    .make-appointment-contact .form-right-make-appointment .item textarea {
+        width: 100%;
+        outline: none;
+    }
+
+    .make-appointment-contact .form-right-make-appointment {
+        padding: 40px;
+        width: 40%;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form>input {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form .box-form-grid-2 .box-form input[type="text"] {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form .box-form-grid-2 .box-form select {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form .box-form-grid-2 .box-form input[type="date"] {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form .box-form-grid-2 .box-form input[type="email"] {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form .box-form-grid-2 .box-form input[type="tel"] {
+        width: 100%;
+        height: 52px;
+        padding: 10px;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form textarea {
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .make-appointment-contact .form-right-make-appointment form button {
+        width: 50%;
+        height: 50px;
+        border: none;
+        background-color: #043542;
+        color: white;
+    }
+
+    .make-appointment-contact .text-question-click-left button {
+        width: 20%;
+        height: 70px;
+        border: none;
+        background-color: #043542;
+        color: white;
+    }
+
+@media (max-width: 1000px) {
+    .make-appointment-contact .title-text-make-appointment{
+        display:none;
+    }
+    .make-appointment-contact .form-right-make-appointment {
+        width: 100%;
+    }
+
+}
+
+    @media (max-width: 1200px) {
+        
+    .make-appointment-contact .background-make-appointment{
+        width: 100%;
+    }
+    .make-appointment-contact .box-make-appointment .col-sm-6{
+        /* width: auto; */
+    }
+    .make-appointment-contact .box-make-appointment .map{
+        
+    }
+    .make-appointment-contact .form-right-make-appointment{
+        /* display: inline-block; */
+    }
+
+}
+
